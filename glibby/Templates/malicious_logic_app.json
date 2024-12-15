@@ -1,0 +1,48 @@
+{
+  "definition": {
+    "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+    "contentVersion": "1.0.0.0",
+    "triggers": {
+      "Recurrence": {
+        "type": "Recurrence",
+        "recurrence": {
+          "interval": 1,
+          "frequency": "Minute",
+          "timeZone": "Dateline Standard Time"
+        }
+      }
+    },
+    "actions": {
+      "HTTP": {
+        "type": "Http",
+        "inputs": {
+          "uri": "",
+          "method": "POST",
+          "body": "test",
+          "authentication": {
+            "type": "ManagedServiceIdentity",
+            "audience": "https://graph.microsoft.com"
+          }
+        },
+        "runAfter": {},
+        "runtimeConfiguration": {
+          "contentTransfer": {
+            "transferMode": "Chunked"
+          }
+        }
+      }
+    },
+    "outputs": {},
+    "parameters": {
+      "$connections": {
+        "type": "Object",
+        "defaultValue": {}
+      }
+    }
+  },
+  "parameters": {
+    "$connections": {
+      "value": {}
+    }
+  }
+}

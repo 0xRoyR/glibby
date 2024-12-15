@@ -1,0 +1,59 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.VENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test outputs
+htmlcov/
+*.cover
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Python-specific
+.pytest_cache/
+*.sqlite3
+
+# MyPy
+.mypy_cache/
+
+# Profiling
+.prof
+
+# Any other temporary files
+*.bak
+*.tmp
