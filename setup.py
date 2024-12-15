@@ -18,11 +18,36 @@ setup(
         'glibby': ['glibby/Templates/*']
     },
     classifiers=[
+        # Development Status
+        "Development Status :: 4 - Beta",  # Replace with 5 - Production/Stable if ready for production
+
+        # Intended Audience
+        "Intended Audience :: Developers",
+        "Intended Audience :: System Administrators",
+        "Intended Audience :: Information Technology",
+
+        # Topic
+        "Topic :: Security",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Utilities",
+        "Topic :: Internet :: WWW/HTTP",
+
+        # License
+        "License :: OSI Approved :: MIT License",  # Replace if using a different license
+
+        # Programming Language
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Azure",
-        "Azure Active Directory",
-        "Entra ID"
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+
+        # Operating System
+        "Operating System :: OS Independent",
+
+        # Natural Language
+        "Natural Language :: English",
     ],
     install_requires=['certifi>=2024.8.30', 'charset-normalizer>=3.4.0', 'idna>=3.10', 'requests>=2.32.3', 'urllib3>=2.2.3'],
     python_requires=">=3.6"

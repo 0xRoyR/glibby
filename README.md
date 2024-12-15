@@ -12,6 +12,42 @@ The tool draws inspiration from the "BARK" CLI tool by Andy Robbins, offering si
 
 ---
 
+## 📖 Installation
+
+### Install from PyPI
+
+The easiest way to install Glibby is via PyPI:
+
+```bash
+pip install glibby
+```
+
+**PyPI URL**: [https://pypi.org/project/glibby/1.0.0/](https://pypi.org/project/glibby/1.0.0/)
+
+---
+
+### Other Installation Methods
+
+#### Install from `.whl` File
+
+If you have downloaded the `.whl` file:
+
+```bash
+pip install path/to/glibby-1.0.0-py3-none-any.whl
+```
+
+#### Install from Source Code
+
+To install the latest version directly from the source code:
+
+```bash
+git clone https://github.com/0xRoyR/glibby.git
+cd glibby
+pip install .
+```
+
+---
+
 ## 📖 Usage
 
 While comprehensive documentation is in progress, here’s an overview of the core components:
