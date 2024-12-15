@@ -1,11 +1,11 @@
 import requests
 import json
 
-from Graph.Group import Group
-from Graph.User import User
-from Graph.Spn import Spn
-from Graph.Application import Application
-from Graph.Attacks import Attacks
+from glibby.Graph.Group import Group
+from glibby.Graph.User import User
+from glibby.Graph.Spn import Spn
+from glibby.Graph.Application import Application
+from glibby.Graph.Attacks import Attacks
 
 
 class GraphOperations:

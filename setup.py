@@ -5,7 +5,7 @@ setup(
     name="glibby",
     version="1.0.0",
     description="A tool written in to automate Azure attack paths.",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding='utf-8').read(),
     long_description_content_type="text/markdown",
     author="Roy Rahamim (0xRoyR)",
     author_email="royraham1@gmail.com",

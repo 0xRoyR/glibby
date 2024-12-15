@@ -2,8 +2,8 @@ import uuid
 import json
 import requests
 
-from RM.Attacks import Attacks
-from RM.Subscription import Subscription
+from glibby.RM.Attacks import Attacks
+from glibby.RM.Subscription import Subscription
 
 class RMOperations:
     def __init__(self, access_token):
