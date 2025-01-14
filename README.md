@@ -1,5 +1,7 @@
 # Glibby
 
+![download](https://github.com/user-attachments/assets/f15df96c-6cb6-4fb8-9f48-66ba8893aab8)
+
 Glibby is a Python library designed to automate Azure attack paths. It simplifies and enhances interactions with Azure APIs, making it a powerful tool for developers and security professionals working with Azure environments.
 
 ---
